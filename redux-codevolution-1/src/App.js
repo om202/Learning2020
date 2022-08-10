@@ -1,11 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
+import About from './screen/About';
+import Main from './screen/Main';
 
 function App() {
   return (
-    <>
-    <h1>React Redux</h1>
-    </>
+    <div id="main">
+      <About/>
+      <Main/>
+    </div>
   );
 }
 
